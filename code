@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <link href="https://media.base44.com/images/public/6a1ff70113d41c1dc23444a4/d8688c2ae_logo.png" rel="icon" type="image/svg+xml"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="/manifest.json" rel="manifest"/>
+  <title>
+   Farm Visits | Pasumai Integrated Farm
+  </title>
+  <script crossorigin="" src="/assets/index-CBRPzSK3.js" type="module">
+  </script>
+  <link crossorigin="" href="/assets/index-DxoiSX1W.css" rel="stylesheet"/>
+  <script type="module">
+   if (window.self === window.top) {
+  let lastPath = "";
+  function getPageNameFromPath(path) {
+    const segments = path.split("/").filter(Boolean);
+    return segments[0] || null;
+  }
+  function trackPageView() {
+    const path = window.location.pathname;
+    if (path === lastPath) return;
+    lastPath = path;
+    const pageName = getPageNameFromPath(path) || "home";
+    const appId = "6a1ff70113d41c1dc23444a4";
+    if (!appId) return;
+    fetch(`/api/app-logs/${appId}/log-user-in-app/${pageName}`, {
+      method: "POST",
+    }).catch(() => {});
+  }
+  const originalPushState = history.pushState.bind(history);
+  history.pushState = function (...args) {
+    originalPushState(...args);
+    trackPageView();
+  };
+  const originalReplaceState = history.replaceState.bind(history);
+  history.replaceState = function (...args) {
+    originalReplaceState(...args);
+    trackPageView();
+  };
+  window.addEventListener("popstate", trackPageView);
+  trackPageView();
+}
+  </script>
+  <meta content="Farm Visits on Pasumai Integrated Farm. A premium digital sanctuary bridging sustainable organic farming with immersive ." name="description"/>
+  <meta content="Farm Visits | Pasumai Integrated Farm" property="og:title"/>
+  <meta content="Farm Visits on Pasumai Integrated Farm. A premium digital sanctuary bridging sustainable organic farming with immersive ." property="og:description"/>
+  <meta content="https://media.base44.com/images/public/6a1ff70113d41c1dc23444a4/d8688c2ae_logo.png/v1/fill/w_1200,h_630/d8688c2ae_logo.png" property="og:image"/>
+  <meta content="https://pasumai-living-acres.base44.app/farm-visits" property="og:url"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Pasumai Integrated Farm" property="og:site_name"/>
+  <meta content="Farm Visits | Pasumai Integrated Farm" name="twitter:title"/>
+  <meta content="Farm Visits on Pasumai Integrated Farm. A premium digital sanctuary bridging sustainable organic farming with immersive ." name="twitter:description"/>
+  <meta content="https://media.base44.com/images/public/6a1ff70113d41c1dc23444a4/d8688c2ae_logo.png/v1/fill/w_1200,h_630/d8688c2ae_logo.png" name="twitter:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://pasumai-living-acres.base44.app/farm-visits" name="twitter:url"/>
+  <meta content="yes" name="mobile-web-app-capable"/>
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="Pasumai Integrated Farm" name="apple-mobile-web-app-title"/>
+  <link href="https://pasumai-living-acres.base44.app/farm-visits" rel="canonical"/>
+  <script data-seo-source="builder" type="application/ld+json">
+   {"name": "Pasumai Integrated Farm", "@context": "https://schema.org", "@type": "WebSite", "url": "https://pasumai-living-acres.base44.app"}
+  </script>
+  <script data-seo-source="builder" type="application/ld+json">
+   {"name": "Pasumai Integrated Farm", "logo": "https://media.base44.com/images/public/6a1ff70113d41c1dc23444a4/d8688c2ae_logo.png", "@context": "https://schema.org", "@type": "Organization", "url": "https://pasumai-living-acres.base44.app"}
+  </script>
+  <script data-seo-source="builder" type="application/ld+json">
+   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://pasumai-living-acres.base44.app/"}, {"@type": "ListItem", "position": 2, "name": "Farm Visits | Pasumai Integrated Farm", "item": "https://pasumai-living-acres.base44.app/farm-visits"}]}
+  </script>
+  <script async="true" data-app-id="6a1ff70113d41c1dc23444a4" data-platform-url="https://app.base44.com" src="/static/js/badge.js">
+  </script>
+ </head>
+ <body>
+  <div id="root">
+   <div data-seo-source="builder" id="seo-snapshot" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
+    <h1>
+     Farm Visits | Pasumai Integrated Farm
+    </h1>
+    <p>
+     Farm Visits on Pasumai Integrated Farm. A premium digital sanctuary bridging sustainable organic farming with immersive .
+    </p>
+    <nav aria-label="Pages">
+     <h2>
+      Pages
+     </h2>
+     <ul>
+      <li>
+       <a href="/cart">
+        Cart
+       </a>
+      </li>
+      <li>
+       <a href="/contact">
+        Contact
+       </a>
+      </li>
+      <li>
+       <a href="/cottages">
+        Cottages
+       </a>
+      </li>
+      <li>
+       <a href="/farm-visits">
+        Farm Visits
+       </a>
+      </li>
+      <li>
+       <a href="/forgot-password">
+        Forgot Password
+       </a>
+      </li>
+      <li>
+       <a href="/gallery">
+        Gallery
+       </a>
+      </li>
+      <li>
+       <a href="/">
+        Home
+       </a>
+      </li>
+      <li>
+       <a href="/login">
+        Login
+       </a>
+      </li>
+      <li>
+       <a href="/my-history">
+        My History
+       </a>
+      </li>
+      <li>
+       <a href="/register">
+        Register
+       </a>
+      </li>
+      <li>
+       <a href="/reset-password">
+        Reset Password
+       </a>
+      </li>
+      <li>
+       <a href="/shop">
+        Shop
+       </a>
+      </li>
+      <li>
+       <a href="/admin/BookingManager">
+        Admin / Booking Manager
+       </a>
+      </li>
+      <li>
+       <a href="/admin/CottageManager">
+        Admin / Cottage Manager
+       </a>
+      </li>
+      <li>
+       <a href="/admin/Messages">
+        Admin / Messages
+       </a>
+      </li>
+      <li>
+       <a href="/admin/OrderManager">
+        Admin / Order Manager
+       </a>
+      </li>
+      <li>
+       <a href="/admin/Overview">
+        Admin / Overview
+       </a>
+      </li>
+      <li>
+       <a href="/admin/ProductManager">
+        Admin / Product Manager
+       </a>
+      </li>
+      <li>
+       <a href="/admin/VideoManager">
+        Admin / Video Manager
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </div>
+ </body>
+</html>
